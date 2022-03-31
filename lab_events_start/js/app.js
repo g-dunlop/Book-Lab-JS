@@ -15,9 +15,9 @@ const handleFormSubmit = function(event){
   const title = document.createElement('li');
   const author = document.createElement('li');
   const category = document.createElement('li');
-  title.id = 'title';
-  author.id = 'author';
-  category.id = 'category';
+  title.id = 'book-title';
+  author.id = 'book-author';
+  category.id = 'book-category';
   newBook.appendChild(title);
   newBook.appendChild(author);
   newBook.appendChild(category);

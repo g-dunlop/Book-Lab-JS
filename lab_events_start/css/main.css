@@ -2,6 +2,40 @@ body {
   font-family: Palatino;
 }
 
-.ul-container{
+#reading-list{
   display:flex;
+  /* flex-direction:row; */
+  width:100%;
+  /* flex-flow: row-wrap; */
+  flex-wrap: wrap;
+}
+
+/* ul{
+  flex:50%;
+} */
+#item{
+list-style:none;
+background-color: lightblue;
+border-radius:5px;
+margin:1rem;
+
+
+/* flex:50%; */
+}
+
+#book-title{
+  font-size:2rem;
+  font-weight:bold;
+  padding:1rem;
+}
+
+#book-author{
+  font-size:1.5rem;
+  font-weight:bold;
+  padding:1rem;
+}
+
+#book-category{
+  font-size:1rem;
+  padding:1rem;
 }
